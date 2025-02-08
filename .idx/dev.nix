@@ -17,26 +17,7 @@
       # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
       idx.extensions = [
         "angular.ng-template"
+        "esbenp.prettier-vscode"
+        "formulahendry.code-runner"
       ];
-
-      # Enable previews and customize configuration
-      idx.previews = {
-        enable = true;
-        previews = {
-          web = {
-            command = [
-              "npm"
-              "run"
-              "start"
-              "--"
-              "--port"
-              "$PORT"
-              "--host"
-              "0.0.0.0"
-              "--disable-host-check"
-            ];
-            manager = "web";
-          };
-        };
-      };
     }
